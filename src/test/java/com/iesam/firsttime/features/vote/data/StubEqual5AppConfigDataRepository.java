@@ -1,4 +1,4 @@
-package com.iesam.firsttime.features.vote.domain;
+package com.iesam.firsttime.features.vote.data;
 
 import com.iesam.firsttime.features.appconfig.domain.AppConfig;
 import com.iesam.firsttime.features.appconfig.domain.AppConfigRepository;

@@ -4,12 +4,12 @@ package com.iesam.firsttime.features.vote.domain;
 import com.iesam.firsttime.features.appconfig.domain.AppConfig;
 import com.iesam.firsttime.features.appconfig.domain.AppConfigRepository;
 
-public class VoteAppUseCase {
+public class ShowVoteAppMessageUseCase {
 
     private AppConfigRepository appConfigRepository;
-    private int totalOpened = 5;
+    private int totalOpened = 10;
 
-    public VoteAppUseCase(AppConfigRepository appConfigRepository) {
+    public ShowVoteAppMessageUseCase(AppConfigRepository appConfigRepository) {
         this.appConfigRepository = appConfigRepository;
     }
 

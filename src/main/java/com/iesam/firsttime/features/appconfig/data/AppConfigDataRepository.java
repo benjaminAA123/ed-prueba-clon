@@ -12,10 +12,13 @@ public class AppConfigDataRepository implements AppConfigRepository {
         this.fileLocalDataSource = fileLocalDataSource;
     }
 
+
+
     @Override
     public AppConfig getAppConfig() {
         return fileLocalDataSource.obtain();
     }
+
 
     @Override
     public void saveAppConfig(AppConfig appConfig) {
